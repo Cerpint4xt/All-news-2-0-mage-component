@@ -1,0 +1,12 @@
+triggers:
+- envs: []
+  last_enabled_at: 2024-04-15 19:57:55.660681
+  name: all_news_article_trigger
+  pipeline_uuid: all_news_author_pipeline_to_gcs
+  schedule_interval: '@daily'
+  schedule_type: time
+  settings: null
+  sla: null
+  start_time: 2024-04-16 08:00:00
+  status: active
+  variables: {}
