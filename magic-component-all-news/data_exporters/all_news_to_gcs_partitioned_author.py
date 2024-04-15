@@ -10,7 +10,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/src/personal-gcp.json/all-
 bucket_name = "all-news-bucket-project"
 project_id = "all-news-project-419219"
 
-table_name = "all_news_data"
+table_name = "all_news_data_author"
 
 root_path = f'{bucket_name}/{table_name}'
 
