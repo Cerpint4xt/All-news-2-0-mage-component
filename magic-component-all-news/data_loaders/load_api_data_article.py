@@ -7,7 +7,7 @@ if 'test' not in globals():
     from mage_ai.data_preparation.decorators import test
 
 months = [1, 2, 3, 4, 5, 6 , 7, 8, 9, 10, 11, 12]
-years = [2020] #, 2017, 2018, 2019, 2020]
+years = [2016, 2017, 2018, 2019, 2020]
 
 news_dtypes = {
     'year': pd.Int64Dtype(),
